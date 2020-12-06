@@ -14,9 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('/dashboard');
+    return redirect('/my-list');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/my-list', function () {
+    return view('my-list');
+})->name('my-list');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/nice-list', function () {
+    return view('nice-list');
+})->name('nice-list');
