@@ -123,6 +123,9 @@
             <x-jet-responsive-nav-link href="{{ route('my-list') }}" :active="request()->routeIs('my-list')">
                 {{ __('My List') }}
             </x-jet-responsive-nav-link>
+            <x-jet-nav-link href="{{ route('nice-list') }}" :active="request()->routeIs('nice-list')">
+                {{ __('Nice List') }}
+            </x-jet-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
