@@ -43,21 +43,6 @@
                     {{ __('Login') }}
                 </x-jet-button>
             </div>
-            <div class="flex items-center mt-4">
-                <small>
-                    Default Credentials: <br>
-                    FirstInitial + LastName @idk.com<br>
-                    password <br>
-                    (Evans: evosburn@idk)
-                </small>
-            </div>
-            <div class="flex items-center mt-4">
-                <small>
-                    Example: <br>
-                    tswiers@idk.com <br>
-                    password
-                </small>
-            </div>
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
