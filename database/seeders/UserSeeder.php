@@ -20,6 +20,10 @@ class UserSeeder extends Seeder
                 'email' => 'tswiers85@gmail.com',
             ],
             (object) [
+                'name' => 'Jena Rodgers',
+                'email' => 'jrodgers@idk.com',
+            ],
+            (object) [
                 'name' => 'John Osburn',
                 'email' => 'josburn@idk.com',
             ],
@@ -38,6 +42,22 @@ class UserSeeder extends Seeder
             (object) [
                 'name' => 'Evan Osburn',
                 'email' => 'evosburn@idk.com',
+            ],
+            (object) [
+                'name' => 'Marcia Indrecc',
+                'email' => 'mindrecc@idk.com',
+            ],
+            (object) [
+                'name' => 'Tim Indrecc',
+                'email' => 'tindrecc@idk.com',
+            ],
+            (object) [
+                'name' => 'Karen Greene',
+                'email' => 'kgreene@idk.com',
+            ],
+            (object) [
+                'name' => 'Wil Greene',
+                'email' => 'wgreene@idk.com',
             ]
         ];
 
